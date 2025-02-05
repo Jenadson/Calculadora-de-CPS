@@ -17,8 +17,8 @@ function calc(event) {
 
     // Exibindo o resultado corretamente com template strings
     document.getElementById("result").innerHTML = `
-        <h1>Seu CPS é:Reais ${cps.toFixed(2)}</h1>
-        <h2>O saldo de seguidores é: ${balance}</h2>
+        <h1>Seu CPS é R$${cps.toFixed(2)}</h1>
+        <h2>O saldo de seguidores é ${balance}</h2>
     `;
 }
 
